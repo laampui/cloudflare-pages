@@ -37,6 +37,18 @@ export default defineConfig({
     [
       "script",
       { async: "async", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3027222694616470", crossorigin: "anonymous" },
+    ],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-2FG5CQFDV9' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2FG5CQFDV9');`
     ]
   ],
   themeConfig: {
