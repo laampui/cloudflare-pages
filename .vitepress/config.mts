@@ -24,12 +24,20 @@ export default defineConfig({
   description: "A personal notebook",
   head: [
     [
+      "meta",
+      { name: "google-adsense-account", content: "ca-pub-3027222694616470" },
+    ],
+    [
       "link",
       {
         rel: "icon",
         href: `data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'><text x='0' y='14'>🥴</text></svg>`,
       },
     ],
+    [
+      "script",
+      { async: "async", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3027222694616470", crossorigin: "anonymous" },
+    ]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
