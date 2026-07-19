@@ -68,6 +68,7 @@ export default defineConfig({
           { text: "🤓 JS", link: "/js" },
           { text: "🗑️ 杂七杂八", link: "/misc" },
           { text: "🈂 Katakana", link: "/katakana" },
+          { text: "🍣 粵語", link: "/cantonese" },
           { text: "🍣 みんなの日本語", link: "/japanese" },
           {
             text: "📚 读书笔记",
